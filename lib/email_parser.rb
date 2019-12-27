@@ -6,3 +6,5 @@ Class = EmailAddressParser
 
 email_addresses = "john@doe.com"
 parser = EmailAddressParser.new(email.addresses)
+
+@@parser.parse
